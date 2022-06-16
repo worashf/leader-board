@@ -1,5 +1,5 @@
 import './asset/style.css';
-
+import '@fortawesome/fontawesome-free/js/all.js';
 import { refreshPage, addNewScore } from './Render';
 
 import {
