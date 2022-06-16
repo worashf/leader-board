@@ -1,21 +1,35 @@
-const scoreList = document.querySelector('.score-list');
+import { scoreList } from './Selector';
+import { getScores, addGames } from './gameFunctions';
 
-const createScore = (score) => {
+export const createScore = (leader) => {
+  const { user, score } = leader;
   const li = document.createElement('li');
   li.classList.add('score');
   const p = document.createElement('p');
   p.classList.add('text');
-  p.textContent = `${score.name}:${score.score}`;
+  p.textContent = `${user}:${score}`;
   li.appendChild(p);
   return li;
 };
-const appendAllScores = (scores) => {
+export const refreshPage = async () => {
+  // load the data
+  scoreList.innerHTML = '<li><p>Loading </p></li>';
+  const leaders = await getScores();
+
+  // clear
+  scoreList.innerHTML = '';
   const scoreElements = [];
-  scores.forEach((score) => {
-    scoreElements.push(createScore(score));
+  leaders.forEach((leader) => {
+    scoreElements.push(createScore(leader));
   });
-  scoreElements.forEach((score) => {
-    scoreList.appendChild(score);
+  scoreElements.forEach((li) => {
+    scoreList.appendChild(li);
   });
 };
-export default appendAllScores;
+
+export const addNewScore = async (user, score) => {
+  const leader = await addGames(user, score);
+  if (leader) {
+    refreshPage();
+  }
+};
