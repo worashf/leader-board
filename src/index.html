@@ -13,18 +13,23 @@
         <section class="list-container">
           <div class="title-container">
             <h2 class="title2">Recent scores</h2>
-            <button class="refresh" type="submit" id="refresh">Refresh</button>
+            <button class="refresh" type="button" id="refresh">Refresh</button>
           </div>
 
-          <ul class="score-list"></ul>
+          <ul class="score-list" id="score-list"></ul>
         </section>
         <section class="form-section">
           <h2 class="title2">Add Your Score</h2>
           <form class="score-form" id="score-form">
-            <input type="text" id="name-input" />
+            <input type="text" id="user-input" />
 
             <input type="number" id="score-input" />
-            <input type="submit" value="submit" class="submit-btn" />
+            <input
+              type="submit"
+              value="submit"
+              class="submit-btn"
+              id="add-btn"
+            />
           </form>
         </section>
       </div>
