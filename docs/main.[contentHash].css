@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(180deg, green, yellow);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 10rem;
+  justify-content: center;
+  background-image: linear-gradient(180deg, yellow, green);
+  padding: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+  margin-top: 2rem;
+}
+
+.list-container {
+  padding-right: 2%;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.refresh {
+  padding: 0.9rem;
+  border-bottom: 5px solid #111;
+  border-right: 5px solid #111;
+  border-radius: 50%;
+}
+
+#refresh-icon {
+  color: green;
+  font-size: 1rem;
+}
+
+#refresh-icon:hover {
+  cursor: pointer;
+  color: rgb(63, 199, 63);
+}
+
+.add-icon {
+  margin-right: 0.2rem;
+  color: green;
+}
+
+.score-list {
+  border: 2px solid #111;
+  list-style: none;
+  margin-left: 1rem;
+  padding: 1rem 0;
+}
+
+li:nth-child(even) {
+  background-color: gray;
+}
+
+li:nth-child(odd):hover {
+  background-color: rgb(220, 241, 28);
+  color: #111;
+}
+
+li:nth-child(even):hover {
+  background-color: rgb(233, 224, 224);
+}
+
+.score {
+  padding: 0.5rem 0;
+}
+
+.score:hover {
+  color: rgb(4, 92, 4);
+}
+
+.text {
+  padding-left: 1rem;
+}
+
+.score-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#user-input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #111;
+}
+
+#score-input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #111;
+}
+
+.submit-btn {
+  width: 30%;
+  margin-left: 70%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-bottom: 5px solid #111;
+  border-right: 5px solid #111;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+
