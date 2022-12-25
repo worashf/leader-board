@@ -1,16 +1,16 @@
-# leander-board
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project is built by html5 and css3, Javascript es6 and webpack .
+# leader-board
+This project is built by html5 and css3, Javascript es6 and webpack. Leaderboard is an app that allows you to set a score board of your favourites games. It create a list with the most recent scores, getting the scores from an external API.
 
 # Built With
 
 - Major Languages
-  - HTML
-  - CSS
+  - HTML5
+  - CSS3
   - JavaScript es6
-
+# [Live Demo](https://worashf.github.io/leader-board/)
 # Getting Started
 
 To get a local copy up and running, follow these simple steps:
@@ -28,15 +28,13 @@ To get a local copy up and running, follow these simple steps:
 
 👤 **Worash Abocherugn**
 
-- GitHub: [@githubhandle](https://github.com/worashf)
-- Twitter: [@twitterhandle](https://twitter.com/WorashAboche)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/worash-abocherugn-a02219154/)
+- GitHub: [@Worashf](https://github.com/worashf)
+- Twitter: [@WorashAboche](https://twitter.com/WorashAboche)
+- LinkedIn: [Worash Abocherugn](https://www.linkedin.com/in/worash-abocherugn-a02219154/)
 
 # Contributing
+Feel free to check the [issues page](https://github.com/worashf/leader-board/issues).
 
-# Live Demo
-
-https://worashf.github.io/leander-board/
 
 # Show your support
 
@@ -44,4 +42,5 @@ Kindly give a :hearts: if you like this.
 
 # Acknowledgement
 
-- We expressed my gratitude for everyone.
+- [Microverse](https://www.microverse.org/)
+- [Webpack](https://webpack.js.org/)
