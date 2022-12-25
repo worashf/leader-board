@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # leader-board
-This project is built by HTML5 and VSS3, JavaScript es6 and Webpack. Leaderboard is an app that allows you to set a score board of your favourites games. It create a list with the most recent scores, getting the scores from an external API.
+This project is built to learn  HTML5 and CSS3, JavaScript es6 and Webpack. Leaderboard is an app that allows you to set a score board of your favourites games. It create a list with the most recent scores, getting the scores from an external API.
 
 # Built With
 
