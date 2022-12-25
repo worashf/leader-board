@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="title1">Leaderboard</h1>
+      <div class="container">
+        <section class="list-container">
+          <div class="title-container">
+            <h2 class="title2">Recent scores</h2>
+            <button class="refresh" type="button" id="refresh">
+              <i class="fa fa-refresh" id="refresh-icon"></i>
+            </button>
+          </div>
+
+          <ul class="score-list" id="score-list"></ul>
+        </section>
+        <section class="form-section">
+          <h2 class="title2">Add Your Score</h2>
+          <form class="score-form" id="score-form">
+            <input type="text" id="user-input" />
+
+            <input type="number" id="score-input" />
+            <button type="submit" class="submit-btn" id="add-btn">
+              <i class="fa fa-add add-icon"></i> Add
+            </button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
