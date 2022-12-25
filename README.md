@@ -9,7 +9,8 @@ This project is built by HTML5 and VSS3, JavaScript es6 and Webpack. Leaderboard
 - Major Languages
   - HTML5
   - CSS3
-  - JavaScript es6
+  - JavaScript, ES6
+  - Webpack
 # [Live Demo](https://worashf.github.io/leader-board/)
 # Getting Started
 
